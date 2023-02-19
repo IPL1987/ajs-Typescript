@@ -17,7 +17,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "author": "IPL1987",
+  "author": "coursar",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
@@ -44,7 +44,10 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.19.1",
-    "core-js": "^3.6.0"
+    "@babel/eslint-parser": "^7.16.5",
+    "core-js": "^3.20.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "save-dev": "^0.0.1-security"
   }
 }
