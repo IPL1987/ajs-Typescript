@@ -42,3 +42,5 @@
 Напишите автотесты на функции — удостоверьтесь, что покрытие по строкам для тестируемых функций равно 100 %.
 
 ---
+
+[![Build status](https://ci.appveyor.com/api/projects/status/euw0lyind2vq8781/branch/main?svg=true)](https://ci.appveyor.com/project/IPL1987/ajs-typescript/branch/main)
