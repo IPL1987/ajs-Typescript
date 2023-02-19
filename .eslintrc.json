@@ -1,15 +1,30 @@
 {
   "extends": "airbnb-base",
   "env": {
-     "es6": true,
-     "browser": true,
-     "jest": true
+    "es6": true,
+    "browser": true,
+    "jest": true
   },
+  "parser": "@babel/eslint-parser",
   "rules": {
     "no-restricted-syntax": [
       "error",
       "LabeledStatement",
       "WithStatement"
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false
+      }
+    ],
+    "import/extensions": [
+      0,
+      {
+        "js": "always"
+      }
     ]
   }
 }
