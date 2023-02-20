@@ -29,7 +29,7 @@ test('correct sum with discount', () => {
   cart.add(new Book(1001, 'War and Piece', 'Leo Tolstoy', 2000, 1225));
   cart.add(new MusicAlbum(1008, 'Meteora', 'Linkin Park', 900));
   cart.add(new Moovie(1012, 'Мстители', 'The Avengers', 2012, 'США', 'Avengers Assemble!', ['фантастика', 'боевик', 'фэнтези', 'приключения'], '137 мин./02:17', 500));
-  expect(cart.discountSum(3060)).toBe(3060);
+  expect(cart.discountSum(10)).toBe(3060);
 })
 
 test('deleting of item', () => {
