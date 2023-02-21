@@ -20,6 +20,7 @@ export default class Cart {
   }
 
   deleteItem(id: number): void {
-    this._items.filter(item => item.id === id).splice(0, 1);
+   // this._items.filter(item => item.id === id); // а здесь я получается выводил все подряд, запутался
+    this._items = this._items.filter(item => item.id !== id)
   }
 }
